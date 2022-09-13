@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * Description: program that prints the alphabet in lowercase
- * Return: Always 0 (Success)
+ * Return:0 (Success)
  */
 
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		putchar(low);
-		printf("\n");
 	}
+	putchar("\n");
 	return (0);
 }
