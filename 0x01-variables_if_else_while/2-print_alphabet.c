@@ -4,9 +4,8 @@
 /**
  * main - Entry point
  * Description: program that prints the alphabet in lowercase
- * Return:0 (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char low;
@@ -15,6 +14,6 @@ int main(void)
 	{
 		putchar(low);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
