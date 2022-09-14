@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
- * Description: Prints all single digit numbers of base 10
+ * Description: Prints alphabets in reverse
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -10,7 +11,7 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		putchar(n);
+	putchar(n);
 	}
 	putchar('\n');
 	return (0);
